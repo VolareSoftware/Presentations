@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c2d7c6c4-9d18-4e8a-a6cc-542dd148fd5f" name="Joe@JOELAPTOPNEW 2010-08-20 12:35:26" runUser="VOLARE\Joe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="be6e3210-b2f1-49e9-afed-4c7f0dadcf6b">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Joe_JOELAPTOPNEW 2010-08-20 12_35_26" />
+  </TestSettings>
+  <Times creation="2010-08-20T12:35:26.7025264-06:00" queuing="2010-08-20T12:35:27.1945756-06:00" start="2010-08-20T12:35:27.4476009-06:00" finish="2010-08-20T12:35:27.6256187-06:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="JOELAPTOPNEW" outcome="Warning" timestamp="2010-08-20T12:35:27.0455607-06:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Mvc' directly or indirectly referenced by the test container 'c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="About" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="5cf557d1-3108-c1fa-a761-c31dcc544579">
+      <Execution timeOut="1800000" id="b93f4150-2110-4099-8b97-6d9b149bcc81" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.HomeControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5cf557d1-3108-c1fa-a761-c31dcc544579" executionId="b93f4150-2110-4099-8b97-6d9b149bcc81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b93f4150-2110-4099-8b97-6d9b149bcc81" testId="5cf557d1-3108-c1fa-a761-c31dcc544579" testName="About" computerName="JOELAPTOPNEW" duration="00:00:00.0220047" startTime="2010-08-20T12:35:27.4786040-06:00" endTime="2010-08-20T12:35:27.5576119-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b93f4150-2110-4099-8b97-6d9b149bcc81">
+    </UnitTestResult>
+  </Results>
+</TestRun>

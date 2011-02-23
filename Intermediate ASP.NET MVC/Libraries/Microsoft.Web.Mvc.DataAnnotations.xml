@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Web.Mvc.DataAnnotations</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Web.Mvc.DataAnnotations.DataAnnotationsModelBinder">
+            <summary>
+            An implementation of <see cref="T:System.Web.Mvc.IModelBinder"/> which is designed to be a replacement
+            default model binder, adding the functionality of validation via the validation
+            attributes in System.ComponentModel.DataAnnotations from .NET 4.0.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Web.Mvc.DataAnnotations.DataAnnotationsModelBinder.GetModelProperties(System.Web.Mvc.ControllerContext,System.Web.Mvc.ModelBindingContext)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Web.Mvc.DataAnnotations.DataAnnotationsModelBinder.BindProperty(System.Web.Mvc.ControllerContext,System.Web.Mvc.ModelBindingContext,System.ComponentModel.PropertyDescriptor)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Web.Mvc.DataAnnotations.DataAnnotationsModelBinder.OnModelUpdated(System.Web.Mvc.ControllerContext,System.Web.Mvc.ModelBindingContext)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Web.Mvc.DataAnnotations.DataAnnotationsModelBinder.OnPropertyValidating(System.Web.Mvc.ControllerContext,System.Web.Mvc.ModelBindingContext,System.ComponentModel.PropertyDescriptor,System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Web.Mvc.DataAnnotations.DataAnnotationsModelBinder.ConvertValue(System.ComponentModel.PropertyDescriptor,System.Object)">
+            <summary>
+            Converts a data value. Looks for the <see cref="T:System.ComponentModel.DataAnnotations.DisplayFormatAttribute"/> to determine
+            if empty strings should be converted to nulls (true by default).
+            </summary>
+            <param name="propertyDescriptor">The property's property descriptor</param>
+            <param name="value">The original value</param>
+            <returns>The converted value</returns>
+        </member>
+        <member name="M:Microsoft.Web.Mvc.DataAnnotations.DataAnnotationsModelBinder.GetDisplayName(System.ComponentModel.ICustomTypeDescriptor)">
+            <summary>
+            Gets the display name for a class. Looks for the <see cref="T:System.ComponentModel.DisplayNameAttribute"/>
+            attribute, and falls back to the class's name by default.
+            </summary>
+            <param name="descriptor">The class's type descriptor</param>
+            <returns>The display name of the class</returns>
+        </member>
+        <member name="M:Microsoft.Web.Mvc.DataAnnotations.DataAnnotationsModelBinder.GetDisplayName(System.ComponentModel.PropertyDescriptor)">
+            <summary>
+            Gets the display name for a property. Looks for the <see cref="T:System.ComponentModel.DataAnnotations.DisplayAttribute"/>
+            attribute, then the <see cref="T:System.ComponentModel.DisplayNameAttribute"/> attribute, and finally falls
+            back to the property's name by default.
+            </summary>
+            <param name="descriptor">The property's property descriptor</param>
+            <returns>The display name of the property</returns>
+        </member>
+        <member name="M:Microsoft.Web.Mvc.DataAnnotations.DataAnnotationsModelBinder.GetTypeDescriptor(System.Object,System.Type)">
+            <summary>
+            Gets the model's type descriptor. In order to support the buddy class metadata model
+            for LINQ to SQL and Entity Framework, it uses
+            <see cref="T:System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider"/>.
+            </summary>
+            <param name="model">The model object</param>
+            <param name="modelType">The type of the model object</param>
+            <returns>The model's type descriptor</returns>
+        </member>
+        <member name="P:Microsoft.Web.Mvc.DataAnnotations.DataAnnotationsModelBinder.InvalidValueFormatter">
+            <summary>
+            Gets or sets the invalid value formatter. Allows the user to determine how to format the
+            display message when an invalid value is encountered (for example, entering "ABC" in a field
+            which holds an Int32). The formatter is passed the property descriptor, the attempted value
+            and the display name for the field, and is expected to return an error message.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Web.Mvc.DataAnnotations.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Web.Mvc.DataAnnotations.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Web.Mvc.DataAnnotations.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Web.Mvc.DataAnnotations.Properties.Resources.InvalidValueForField">
+            <summary>
+              Looks up a localized string similar to The value &apos;{0}&apos; is not valid for the {1} field..
+            </summary>
+        </member>
+    </members>
+</doc>

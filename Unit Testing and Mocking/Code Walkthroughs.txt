@@ -1,0 +1,41 @@
+Walkthrough 1: AAA syntax, NUnit asserts
+- 1) Show SalesTaxService.cs
+- 2) Create tests for zero and good amount
+- Discussion: Can move common to Setup, but don't over do it
+- Discussion: Don't over Assert
+- Show OtherNUnitAsserts
+
+
+- Pull out a dependency slides
+
+
+Walkthrough 2: Testing hard stuff, method with email calls
+- 1) Show Order.cs and ProcessOrder method
+- 2) Show EmailService and SendOrderConfirmationEmail method
+- 3) Run first test which passes with bad values
+- Discussion: How can we test ProcessOrder without sending emails?
+- Discussion: When you see "new", it's probably a dependency
+- Discussion: Code to abstractions, use constructor injection
+- 4) Create IEmailService interface
+- 5) Create Order constructor with new EmailService initialize
+- 6) Create FakeEmailService that inherits from IEmailService
+- 7) Change test to use fake EmailService
+- Discussion: Can use this technique for HttpContext, DBs, etc.
+
+
+- Mocking slides
+
+
+Walkthrough 3a: Refactor using RhinoMocks
+- 1) Use MockRepository.GenerateMock<IEmailService>() instead of FakeEmailService
+- Run and show one test still failing
+- 2) Use .Stub to set .Return value on emailService as true
+- Run tests and it works
+
+Walkthough 3b: Use AssertWasCalled
+- 1) Uncomment OrderRepository steps in ProcessOrder
+- 2) Show OrderRepository and that Save is a void method
+- 3) Use MockRepository.GenerateMock<IOrderRepository>()
+- 4) Add repository.AssertWasCalled(x=>x.Save()) to last test
+- Run tests and it works
+- Show OtherRhinoMocksAsserts

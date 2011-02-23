@@ -1,0 +1,5 @@
+C:\My Projects\Volare\Presentations\MVC 2 - Denver .NET Group\ContactForm\ContactForm\bin\ContactForm.dll
+C:\My Projects\Volare\Presentations\MVC 2 - Denver .NET Group\ContactForm\ContactForm\bin\ContactForm.pdb
+C:\My Projects\Volare\Presentations\MVC 2 - Denver .NET Group\ContactForm\ContactForm\obj\Debug\ResolveAssemblyReference.cache
+C:\My Projects\Volare\Presentations\MVC 2 - Denver .NET Group\ContactForm\ContactForm\obj\Debug\ContactForm.dll
+C:\My Projects\Volare\Presentations\MVC 2 - Denver .NET Group\ContactForm\ContactForm\obj\Debug\ContactForm.pdb

@@ -1,0 +1,72 @@
+Hello World MVC
+  1) Show references
+  2) Run as-is to show default look
+  3) Change values in Home View to display "Hello World"
+  4) Refactor to use ViewData["Message"] for value in view from Controller
+  Discussion - what is ViewData?
+  5a) Refactor to use new Home Model for value in view
+  5b) Show existing HomeViewModel
+  5c) Update controller to pass HomeViewModel to View
+  5d) Update view to reference  HomeViewModel
+  5e) Update view to display HomeViewModel data
+  Discussion - 3 sources for UI data - View, Controller, Model
+
+
+Contact form with validation
+  1) Create dummy TestModel
+  2) Right click Controllers, add TestController
+  3) Right click highlighted view, add typed View
+  Discussion - HtmlHelpers in the view
+  4) Show existing contact mode, controller, and view
+  5) Set break point in controller action and run
+  Discussion on ModelBinder
+  Discussion - routing to this page, show that Index is optional
+  6) Show existing success view
+  Discussion - Access to full model inside the view
+  7) Show existing ContactViewModel with validation attributes
+  8) Uncomment code to controller to reject invalid models
+  9) Run and test validation
+  Discussion - Notice default validation styling and CSS
+  10) Enable client scripting and re-run
+
+
+Routing
+  Discussion - What are routes?  URL is not equal to a page like WebForms.
+  1) Browse the site as-is
+  2) Show that /Home/Index is optional
+  2) Hover over "About", Test About route, which should work as-is
+  3) Show Global.asax.cs routing
+  4) Uncomment new route, we want http://localhost/This/Is/So/Cool
+  5) Browse to /This/Is/So/Cool
+  6) Hover over "About", test old route for About and new route you just made
+  Discussion - Order of routes matters, route resolution falls through code
+  7) Change new route code to be ABOVE default route
+  8) Hover over "About", test old route for About and new route you just made
+  9) Open Site.Master
+  10) Notice Html.ActionLink code instead of hard-coded URL
+  Discussion - View didn't change, Controller didn't change
+  Discussion - both routes still work
+
+
+Testing
+  1a) Open HomeControllerTests
+  1b) See ViewData values being tested in Index
+  1c) See ViewResult tested in About
+  2a) Open AccountControllerTest
+  2b) See RedirectToRouteResult tested in ChangePassword
+  Discussion - what could we test in our project?  Routing!
+  3) Add a reference to MvcContrib.TestHelper
+  4) Show RoutingTests with ShouldMaptTo using MvcContrib
+
+
+Ajax call to fetch JSON
+  1) Show Deparment model with Name as the only property
+  2) Show HrService for GetDepartments
+  3) Uncomment initialize HrService in the HomeController constructor
+  4) Uncomment action in HomeController called GetAllDepartments
+  Discussion - Why bother putting it outside the current method?
+  5) Show About view with button and div
+  6) Show jquery reference to About
+  7) Show button click jQuery function to view
+  8) Run and test
+  Discussion can go straight to this URL and use like REST

@@ -1,0 +1,8 @@
+C:\My Projects\Volare\Presentations\MVC 2 - Denver .NET Group\ContactForm\ContactForm.Tests\bin\Debug\ContactForm.Tests.dll.config
+C:\My Projects\Volare\Presentations\MVC 2 - Denver .NET Group\ContactForm\ContactForm.Tests\bin\Debug\ContactForm.Tests.dll
+C:\My Projects\Volare\Presentations\MVC 2 - Denver .NET Group\ContactForm\ContactForm.Tests\bin\Debug\ContactForm.Tests.pdb
+C:\My Projects\Volare\Presentations\MVC 2 - Denver .NET Group\ContactForm\ContactForm.Tests\bin\Debug\ContactForm.dll
+C:\My Projects\Volare\Presentations\MVC 2 - Denver .NET Group\ContactForm\ContactForm.Tests\bin\Debug\ContactForm.pdb
+C:\My Projects\Volare\Presentations\MVC 2 - Denver .NET Group\ContactForm\ContactForm.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\My Projects\Volare\Presentations\MVC 2 - Denver .NET Group\ContactForm\ContactForm.Tests\obj\Debug\ContactForm.Tests.dll
+C:\My Projects\Volare\Presentations\MVC 2 - Denver .NET Group\ContactForm\ContactForm.Tests\obj\Debug\ContactForm.Tests.pdb

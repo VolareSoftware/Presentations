@@ -1,0 +1,84 @@
+Lab Steps
+----------
+- Lab 4 - "Real world" sample using application services, repository, and MVC conventions
+	- This is not really a group lab until step #2
+	- 1a) Show and compare Employee and EmployeeViewModel classes
+	- 1b) Show and compare repository and application services
+	- Discussion - Why different?  Don't want to expose Salary, don't want to expose Delete
+	- Discussion - What is convention over configuration?
+	- 2a) Right click on Controllers folder and click Add Controller (TestController)
+	- 2b) Check box for adding all controller stuff
+	- 3a) Right click on Controller actions and click Add View, pick type
+	- 4a) Switch from TestContoller and Test views to EmployeeController and Employee views
+	- 4b) Run it to see if it works
+	- Discussion - Why doesn't it work?  Need data to display!
+	- 5a) Uncomment Employee Application Service code with GetAll() and Get()
+	- 5b) Set up constructors in EmployeeController to use EmployeeService
+	- 5c) Refactor Index action to call GetAll method and push model out
+	- 6) Browse and test it out
+	- Discussion - IDs in the pre-built views
+	- 7) Refactor to remove commented out IDs for Index and Details view
+	- 8) Refactor Details controller action to get one employee
+	- 9) Run and show list and details
+	- Discussion - could finish this out with Edit and Create
+	- Discussion - Use EditViewModel instead of FormCollection 
+
+
+- Lab 6 - Routing
+	- 1) Open Global.asax and look at RegisterRoutes
+	- Discussion - What are routes?  URL is not equal to a page like WebForms.
+	- Discussion - defaults for routes
+	- 2) Hover over "About", Test About route, which should work as-is
+	- 3a) Old About route is http://localhost/Home/About
+	- 3b) For new route, we want http://localhost/This/Is/So/Cool
+	- 3b) Add new route for About page BELOW default route
+	- 4) Hover over "About", test old route for About and new route you just made
+	- Discussion - Order of routes matters, route resolution falls through code
+	- 5) Change location of new route code to be ABOVE default route
+	- 6) Hover over "About", test old route for About and new route you just made
+	- Discussion - Why did menu item for About change?
+	- 7) Open Site.Master
+	- 8) Notice Html.ActionLink code instead of hard-coded URL
+	- Discussion - View didn't change, Controller didn't change
+	- Discussion - both routes still work
+
+
+- Lab 5 - Testing
+	- 1a) Open HomeControllerTests
+	- 1b) See ViewData values being tested in Index
+	- 1c) See ViewResult tested in About
+	- 2a) Open AccountControllerTest
+	- 2b) See RedirectToRouteResult tested in ChangePassword
+	- Discussion - what could we test in our project?  Routing!
+	- 3) Add a reference to MvcContrib.TestHelper
+	- 4) Set it as trusted with right click on DLL, unblock
+	- 5) Create route tests with ShouldMaptTo using MvcContrib
+	- Run tests and see if they pass
+	- 6) Modify Global.asax routes and re-run tests
+	- Discussion on testing session, HttpContext, review AccountController code
+
+
+- Lab 8 - Call to controller to call fake web service and return JSON
+	- 1) Add new Deparment model with Name as the only property
+	- 2) Add new method to new HrService for GetDepartments
+	- 3) Add new action to HomeController called GetAllDepartments
+	- 4) Initialize HrService in the HomeController constructor
+	- Discussion - Why bother putting it outside the current method?
+	- 5) Add button and div to Create view
+	- 6) Add jquery reference to Create view
+	- 7) Add button click jQuery function to view
+	- 8) Run and test
+	- Discussion can go straight to this URL and use like REST
+
+
+- Lab 7 - Basic error handling
+	- 1) Open Home Controller
+	- 2) Notice "[HandleError]"
+	- 3) Force an error in code
+	- 4) Run and see what happens, should get yellow screen
+	- 5a) Open web.config and comment out customErrors section
+	- 5b) Set redirect page to "Error.aspx"
+	- 5c) Set mode to "On"
+	- 6) Run and should now see error page
+	- 7) Notice special HandleErrorInfo model passed into the view
+	- Discussion and slides of Elmah as an HttpHandler for unhandled exceptions

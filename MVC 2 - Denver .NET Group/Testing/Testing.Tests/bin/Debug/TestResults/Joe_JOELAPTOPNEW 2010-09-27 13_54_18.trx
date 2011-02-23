@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bc369c3d-28f4-4b7c-ad28-081c59a38dcb" name="Joe@JOELAPTOPNEW 2010-09-27 13:54:18" runUser="VOLARE\Joe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="39e29e66-c64e-4ad0-9fc6-7e1cf5787944">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Joe_JOELAPTOPNEW 2010-09-27 13_54_18" />
+  </TestSettings>
+  <Times creation="2010-09-27T13:54:18.9126698-06:00" queuing="2010-09-27T13:54:19.4316698-06:00" start="2010-09-27T13:54:19.7176698-06:00" finish="2010-09-27T13:54:20.7696698-06:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="20" executed="20" passed="20" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="JOELAPTOPNEW" outcome="Warning" timestamp="2010-09-27T13:54:19.2756698-06:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Mvc' directly or indirectly referenced by the test container 'c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="76f1522f-ff7c-96c3-c71d-aaaa1352e1f7">
+      <Execution timeOut="1800000" id="fee5ab5d-d63a-49c4-8133-d282cce67f09" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="34afe769-a2f3-6a0f-80da-ef8fdbf95d10">
+      <Execution timeOut="1800000" id="e6018435-1553-422a-8102-4a46e8cf1c97" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="e50dadac-0559-e6fa-da65-f3e24dcb0fca">
+      <Execution timeOut="1800000" id="9f35d60d-4e1f-41fe-b07f-b0ee93d54e30" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="b05ee96d-db98-83cd-3995-d19617561b51">
+      <Execution timeOut="1800000" id="726039aa-7258-465d-99c9-3bbd41f3e104" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="db31dd7f-1e92-c00a-6f27-894d984d821f">
+      <Execution timeOut="1800000" id="05a81453-596e-4c8f-a5fc-4a28b939b796" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="4c9a66ac-37dc-b064-e121-37ce30bee324">
+      <Execution timeOut="1800000" id="67d6cdfa-f19b-4479-8bbc-fc56e2597cab" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="6dc6a311-b035-b932-b277-dc3c3d44d0bd">
+      <Execution timeOut="1800000" id="34f50aa2-7003-4f5a-8b58-3d42914dac44" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="8d70192c-baa4-6257-36c9-c74b5ee95fd0">
+      <Execution timeOut="1800000" id="8ea28375-7f79-4b33-81db-a36028dade4b" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="02d5400a-24d0-c437-3f7a-053e6506d5bc">
+      <Execution timeOut="1800000" id="c35308de-45a3-4dfb-ab63-97e5de9712f7" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="ecbee6ec-e852-712f-bcb8-355bd1fcac89">
+      <Execution timeOut="1800000" id="be5ac208-5c26-4802-a493-e85798551144" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="Should_map_Home_Index_routes_correctly" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="6525b5dd-15bd-1330-1e61-26ed90a1f4fb">
+      <Execution timeOut="1800000" id="596660a0-8af0-4f1b-97de-a36b0184d325" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.RoutingTests, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_map_Home_Index_routes_correctly" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="09b9ff9a-e200-2438-7a3c-75dd69832ccc">
+      <Execution timeOut="1800000" id="5542f86d-beb3-4204-9dc9-3ebc6b2e8572" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="69a7cb7a-628f-5c9c-6279-adccc8496164">
+      <Execution timeOut="1800000" id="f2400484-7e20-4256-b3ed-6716c8a53b45" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Should_map_This_Is_So_Cool_route_correctly" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="e5d440ee-7ba5-f570-2cd9-110e30b8d672">
+      <Execution timeOut="1800000" id="fe49df32-ec3a-4b8a-8533-f93229ac48f9" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.RoutingTests, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_map_This_Is_So_Cool_route_correctly" />
+    </UnitTest>
+    <UnitTest name="Should_map_Home_About_routes_correctly" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="7ad9fcd7-5cd9-71a7-29e6-2c0f736e138c">
+      <Execution timeOut="1800000" id="fe32df52-4eeb-4aa9-b167-a96b7b9f703d" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.RoutingTests, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_map_Home_About_routes_correctly" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="9fe5cb14-d085-5dd3-b529-ee7cfc4f7bef">
+      <Execution timeOut="1800000" id="5e1929cb-c640-458c-b6ed-106ede714e57" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.HomeControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="645ed3bc-9280-42cf-4cc1-862897802915">
+      <Execution timeOut="1800000" id="f7ff61bc-e6cf-4d51-8bfb-37934adb388a" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="d0e5e6bd-e83d-5da9-746d-c56927da05a2">
+      <Execution timeOut="1800000" id="22476776-e023-42f8-a497-d38fbb3d1246" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="5cf557d1-3108-c1fa-a761-c31dcc544579">
+      <Execution timeOut="1800000" id="5bba19a2-f54e-43d2-a42e-21c4baf79855" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.HomeControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="c:\my projects\volare\presentations\mvc 2 - denver .net group\testing\testing.tests\bin\debug\testing.tests.dll" id="6bc95157-c472-2cb9-50bc-855d5ec0a193">
+      <Execution timeOut="1800000" id="32a74189-2182-4ce9-b148-bd3a4412124c" />
+      <TestMethod codeBase="C:/My Projects/Volare/Presentations/MVC 2 - Denver .NET Group/Testing/Testing.Tests/bin/Debug/Testing.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testing.Tests.Controllers.AccountControllerTest, Testing.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="69a7cb7a-628f-5c9c-6279-adccc8496164" executionId="f2400484-7e20-4256-b3ed-6716c8a53b45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0e5e6bd-e83d-5da9-746d-c56927da05a2" executionId="22476776-e023-42f8-a497-d38fbb3d1246" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e50dadac-0559-e6fa-da65-f3e24dcb0fca" executionId="9f35d60d-4e1f-41fe-b07f-b0ee93d54e30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76f1522f-ff7c-96c3-c71d-aaaa1352e1f7" executionId="fee5ab5d-d63a-49c4-8133-d282cce67f09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="645ed3bc-9280-42cf-4cc1-862897802915" executionId="f7ff61bc-e6cf-4d51-8bfb-37934adb388a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34afe769-a2f3-6a0f-80da-ef8fdbf95d10" executionId="e6018435-1553-422a-8102-4a46e8cf1c97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09b9ff9a-e200-2438-7a3c-75dd69832ccc" executionId="5542f86d-beb3-4204-9dc9-3ebc6b2e8572" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db31dd7f-1e92-c00a-6f27-894d984d821f" executionId="05a81453-596e-4c8f-a5fc-4a28b939b796" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d70192c-baa4-6257-36c9-c74b5ee95fd0" executionId="8ea28375-7f79-4b33-81db-a36028dade4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c9a66ac-37dc-b064-e121-37ce30bee324" executionId="67d6cdfa-f19b-4479-8bbc-fc56e2597cab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6dc6a311-b035-b932-b277-dc3c3d44d0bd" executionId="34f50aa2-7003-4f5a-8b58-3d42914dac44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b05ee96d-db98-83cd-3995-d19617561b51" executionId="726039aa-7258-465d-99c9-3bbd41f3e104" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ecbee6ec-e852-712f-bcb8-355bd1fcac89" executionId="be5ac208-5c26-4802-a493-e85798551144" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02d5400a-24d0-c437-3f7a-053e6506d5bc" executionId="c35308de-45a3-4dfb-ab63-97e5de9712f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6bc95157-c472-2cb9-50bc-855d5ec0a193" executionId="32a74189-2182-4ce9-b148-bd3a4412124c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5cf557d1-3108-c1fa-a761-c31dcc544579" executionId="5bba19a2-f54e-43d2-a42e-21c4baf79855" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fe5cb14-d085-5dd3-b529-ee7cfc4f7bef" executionId="5e1929cb-c640-458c-b6ed-106ede714e57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ad9fcd7-5cd9-71a7-29e6-2c0f736e138c" executionId="fe32df52-4eeb-4aa9-b167-a96b7b9f703d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6525b5dd-15bd-1330-1e61-26ed90a1f4fb" executionId="596660a0-8af0-4f1b-97de-a36b0184d325" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5d440ee-7ba5-f570-2cd9-110e30b8d672" executionId="fe49df32-ec3a-4b8a-8533-f93229ac48f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f2400484-7e20-4256-b3ed-6716c8a53b45" testId="69a7cb7a-628f-5c9c-6279-adccc8496164" testName="ChangePassword_Get_ReturnsView" computerName="JOELAPTOPNEW" duration="00:00:00.0406965" startTime="2010-09-27T13:54:19.7896698-06:00" endTime="2010-09-27T13:54:19.9176698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2400484-7e20-4256-b3ed-6716c8a53b45">
+    </UnitTestResult>
+    <UnitTestResult executionId="22476776-e023-42f8-a497-d38fbb3d1246" testId="d0e5e6bd-e83d-5da9-746d-c56927da05a2" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="JOELAPTOPNEW" duration="00:00:00.0100928" startTime="2010-09-27T13:54:19.9296698-06:00" endTime="2010-09-27T13:54:19.9416698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22476776-e023-42f8-a497-d38fbb3d1246">
+    </UnitTestResult>
+    <UnitTestResult executionId="9f35d60d-4e1f-41fe-b07f-b0ee93d54e30" testId="e50dadac-0559-e6fa-da65-f3e24dcb0fca" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="JOELAPTOPNEW" duration="00:00:00.0035133" startTime="2010-09-27T13:54:19.9686698-06:00" endTime="2010-09-27T13:54:19.9866698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f35d60d-4e1f-41fe-b07f-b0ee93d54e30">
+    </UnitTestResult>
+    <UnitTestResult executionId="fee5ab5d-d63a-49c4-8133-d282cce67f09" testId="76f1522f-ff7c-96c3-c71d-aaaa1352e1f7" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="JOELAPTOPNEW" duration="00:00:00.0021099" startTime="2010-09-27T13:54:19.9966698-06:00" endTime="2010-09-27T13:54:20.0056698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fee5ab5d-d63a-49c4-8133-d282cce67f09">
+    </UnitTestResult>
+    <UnitTestResult executionId="f7ff61bc-e6cf-4d51-8bfb-37934adb388a" testId="645ed3bc-9280-42cf-4cc1-862897802915" testName="ChangePasswordSuccess_ReturnsView" computerName="JOELAPTOPNEW" duration="00:00:00.0006918" startTime="2010-09-27T13:54:20.0176698-06:00" endTime="2010-09-27T13:54:20.0186698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7ff61bc-e6cf-4d51-8bfb-37934adb388a">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6018435-1553-422a-8102-4a46e8cf1c97" testId="34afe769-a2f3-6a0f-80da-ef8fdbf95d10" testName="LogOff_LogsOutAndRedirects" computerName="JOELAPTOPNEW" duration="00:00:00.0013183" startTime="2010-09-27T13:54:20.0296698-06:00" endTime="2010-09-27T13:54:20.0386698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6018435-1553-422a-8102-4a46e8cf1c97">
+    </UnitTestResult>
+    <UnitTestResult executionId="5542f86d-beb3-4204-9dc9-3ebc6b2e8572" testId="09b9ff9a-e200-2438-7a3c-75dd69832ccc" testName="LogOn_Get_ReturnsView" computerName="JOELAPTOPNEW" duration="00:00:00.0006456" startTime="2010-09-27T13:54:20.0496698-06:00" endTime="2010-09-27T13:54:20.0516698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5542f86d-beb3-4204-9dc9-3ebc6b2e8572">
+    </UnitTestResult>
+    <UnitTestResult executionId="05a81453-596e-4c8f-a5fc-4a28b939b796" testId="db31dd7f-1e92-c00a-6f27-894d984d821f" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="JOELAPTOPNEW" duration="00:00:00.0043474" startTime="2010-09-27T13:54:20.0546698-06:00" endTime="2010-09-27T13:54:20.0696698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05a81453-596e-4c8f-a5fc-4a28b939b796">
+    </UnitTestResult>
+    <UnitTestResult executionId="8ea28375-7f79-4b33-81db-a36028dade4b" testId="8d70192c-baa4-6257-36c9-c74b5ee95fd0" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" computerName="JOELAPTOPNEW" duration="00:00:00.0016080" startTime="2010-09-27T13:54:20.0766698-06:00" endTime="2010-09-27T13:54:20.0866698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ea28375-7f79-4b33-81db-a36028dade4b">
+    </UnitTestResult>
+    <UnitTestResult executionId="67d6cdfa-f19b-4479-8bbc-fc56e2597cab" testId="4c9a66ac-37dc-b064-e121-37ce30bee324" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="JOELAPTOPNEW" duration="00:00:00.0044508" startTime="2010-09-27T13:54:20.0876698-06:00" endTime="2010-09-27T13:54:20.0996698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67d6cdfa-f19b-4479-8bbc-fc56e2597cab">
+    </UnitTestResult>
+    <UnitTestResult executionId="34f50aa2-7003-4f5a-8b58-3d42914dac44" testId="6dc6a311-b035-b932-b277-dc3c3d44d0bd" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="JOELAPTOPNEW" duration="00:00:00.0015992" startTime="2010-09-27T13:54:20.1206698-06:00" endTime="2010-09-27T13:54:20.1306698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34f50aa2-7003-4f5a-8b58-3d42914dac44">
+    </UnitTestResult>
+    <UnitTestResult executionId="726039aa-7258-465d-99c9-3bbd41f3e104" testId="b05ee96d-db98-83cd-3995-d19617561b51" testName="Register_Get_ReturnsView" computerName="JOELAPTOPNEW" duration="00:00:00.0034118" startTime="2010-09-27T13:54:20.1326698-06:00" endTime="2010-09-27T13:54:20.1496698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="726039aa-7258-465d-99c9-3bbd41f3e104">
+    </UnitTestResult>
+    <UnitTestResult executionId="be5ac208-5c26-4802-a493-e85798551144" testId="ecbee6ec-e852-712f-bcb8-355bd1fcac89" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="JOELAPTOPNEW" duration="00:00:00.0017363" startTime="2010-09-27T13:54:20.1586698-06:00" endTime="2010-09-27T13:54:20.1636698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be5ac208-5c26-4802-a493-e85798551144">
+    </UnitTestResult>
+    <UnitTestResult executionId="c35308de-45a3-4dfb-ab63-97e5de9712f7" testId="02d5400a-24d0-c437-3f7a-053e6506d5bc" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="JOELAPTOPNEW" duration="00:00:00.0007515" startTime="2010-09-27T13:54:20.1826698-06:00" endTime="2010-09-27T13:54:20.1876698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c35308de-45a3-4dfb-ab63-97e5de9712f7">
+    </UnitTestResult>
+    <UnitTestResult executionId="32a74189-2182-4ce9-b148-bd3a4412124c" testId="6bc95157-c472-2cb9-50bc-855d5ec0a193" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="JOELAPTOPNEW" duration="00:00:00.0009579" startTime="2010-09-27T13:54:20.1996698-06:00" endTime="2010-09-27T13:54:20.2046698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32a74189-2182-4ce9-b148-bd3a4412124c">
+    </UnitTestResult>
+    <UnitTestResult executionId="5bba19a2-f54e-43d2-a42e-21c4baf79855" testId="5cf557d1-3108-c1fa-a761-c31dcc544579" testName="About" computerName="JOELAPTOPNEW" duration="00:00:00.0006866" startTime="2010-09-27T13:54:20.2086698-06:00" endTime="2010-09-27T13:54:20.2236698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bba19a2-f54e-43d2-a42e-21c4baf79855">
+    </UnitTestResult>
+    <UnitTestResult executionId="5e1929cb-c640-458c-b6ed-106ede714e57" testId="9fe5cb14-d085-5dd3-b529-ee7cfc4f7bef" testName="Index" computerName="JOELAPTOPNEW" duration="00:00:00.0031793" startTime="2010-09-27T13:54:20.2256698-06:00" endTime="2010-09-27T13:54:20.2396698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e1929cb-c640-458c-b6ed-106ede714e57">
+    </UnitTestResult>
+    <UnitTestResult executionId="fe32df52-4eeb-4aa9-b167-a96b7b9f703d" testId="7ad9fcd7-5cd9-71a7-29e6-2c0f736e138c" testName="Should_map_Home_About_routes_correctly" computerName="JOELAPTOPNEW" duration="00:00:00.4191902" startTime="2010-09-27T13:54:20.2496698-06:00" endTime="2010-09-27T13:54:20.6776698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe32df52-4eeb-4aa9-b167-a96b7b9f703d">
+    </UnitTestResult>
+    <UnitTestResult executionId="596660a0-8af0-4f1b-97de-a36b0184d325" testId="6525b5dd-15bd-1330-1e61-26ed90a1f4fb" testName="Should_map_Home_Index_routes_correctly" computerName="JOELAPTOPNEW" duration="00:00:00.0061479" startTime="2010-09-27T13:54:20.6786698-06:00" endTime="2010-09-27T13:54:20.6856698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="596660a0-8af0-4f1b-97de-a36b0184d325">
+    </UnitTestResult>
+    <UnitTestResult executionId="fe49df32-ec3a-4b8a-8533-f93229ac48f9" testId="e5d440ee-7ba5-f570-2cd9-110e30b8d672" testName="Should_map_This_Is_So_Cool_route_correctly" computerName="JOELAPTOPNEW" duration="00:00:00.0030924" startTime="2010-09-27T13:54:20.6986698-06:00" endTime="2010-09-27T13:54:20.7016698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe49df32-ec3a-4b8a-8533-f93229ac48f9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

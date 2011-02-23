@@ -1,0 +1,48 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="917BBB95-8FB3-4096-AE03-ED1A2D83265D/d:Views/d:Home/f:Index.aspx" caret="486" fromTop="10" />
+      <File id="917BBB95-8FB3-4096-AE03-ED1A2D83265D/f:Global.asax.cs" caret="992" fromTop="9" />
+      <File id="917BBB95-8FB3-4096-AE03-ED1A2D83265D/d:Views/d:Shared/f:Site.Master" caret="508" fromTop="5" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="917BBB95-8FB3-4096-AE03-ED1A2D83265D/d:Views/d:Home/f:Index.aspx" caret="486" fromTop="10" />
+      <File id="917BBB95-8FB3-4096-AE03-ED1A2D83265D/d:Views/d:Shared/f:Site.Master" caret="1136" fromTop="12" />
+      <File id="917BBB95-8FB3-4096-AE03-ED1A2D83265D/f:Global.asax.cs" caret="1643" fromTop="21" />
+      <File id="917BBB95-8FB3-4096-AE03-ED1A2D83265D/f:Global.asax.cs" caret="675" fromTop="2" />
+      <File id="917BBB95-8FB3-4096-AE03-ED1A2D83265D/f:Global.asax.cs" caret="923" fromTop="6" />
+      <File id="917BBB95-8FB3-4096-AE03-ED1A2D83265D/d:Views/d:Shared/f:Site.Master" caret="956" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Html" priority="1" />
+      <Item value="XAttribute`0" priority="2" />
+      <Item value="XAttribute" priority="1" />
+      <Item value="Url" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="AntiForgeryToken`0" priority="0" />
+      <Item value="ActionLink`0" priority="2" />
+      <Item value="RouteLink`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
