@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3", "Lab3\Lab3.csproj", "{1FE83477-1949-4931-B618-5CB1C24C4F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3.Tests", "Lab3.Tests\Lab3.Tests.csproj", "{D21A28BE-9D01-49D4-8835-EFAD4A9285DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FE83477-1949-4931-B618-5CB1C24C4F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE83477-1949-4931-B618-5CB1C24C4F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE83477-1949-4931-B618-5CB1C24C4F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE83477-1949-4931-B618-5CB1C24C4F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21A28BE-9D01-49D4-8835-EFAD4A9285DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21A28BE-9D01-49D4-8835-EFAD4A9285DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21A28BE-9D01-49D4-8835-EFAD4A9285DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21A28BE-9D01-49D4-8835-EFAD4A9285DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

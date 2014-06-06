@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab7", "Lab7\Lab7.csproj", "{74EDA94E-F610-410D-A326-E1DC09FC914F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab7.Tests", "Lab7.Tests\Lab7.Tests.csproj", "{4DC020AA-5D85-4171-BDE8-DB0F40D9EEC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74EDA94E-F610-410D-A326-E1DC09FC914F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74EDA94E-F610-410D-A326-E1DC09FC914F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74EDA94E-F610-410D-A326-E1DC09FC914F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74EDA94E-F610-410D-A326-E1DC09FC914F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC020AA-5D85-4171-BDE8-DB0F40D9EEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC020AA-5D85-4171-BDE8-DB0F40D9EEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC020AA-5D85-4171-BDE8-DB0F40D9EEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC020AA-5D85-4171-BDE8-DB0F40D9EEC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

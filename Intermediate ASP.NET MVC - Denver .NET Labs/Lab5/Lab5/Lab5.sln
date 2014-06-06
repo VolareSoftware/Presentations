@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5", "Lab5.csproj", "{8A5FCC26-1391-4AFE-A60A-B9402CC7A01C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5.Tests", "..\Lab5.Tests\Lab5.Tests.csproj", "{0A31820D-12CF-4867-B084-D5923E4EAE59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A5FCC26-1391-4AFE-A60A-B9402CC7A01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5FCC26-1391-4AFE-A60A-B9402CC7A01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5FCC26-1391-4AFE-A60A-B9402CC7A01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A5FCC26-1391-4AFE-A60A-B9402CC7A01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A31820D-12CF-4867-B084-D5923E4EAE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A31820D-12CF-4867-B084-D5923E4EAE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A31820D-12CF-4867-B084-D5923E4EAE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A31820D-12CF-4867-B084-D5923E4EAE59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

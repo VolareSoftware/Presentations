@@ -1,0 +1,207 @@
+Hello World MVC
+  1) Show references
+  2) Run as-is to show default look
+  3) Change values in Home View to display "Hello World"
+  4) Refactor to use ViewData["Message"] for value in view from Controller
+  Discussion - what is ViewData?
+  5a) Refactor to use new Home Model for value in view
+  5b) Show existing HomeViewModel
+  5c) Update controller to pass HomeViewModel to View
+  5d) Update view to reference  HomeViewModel
+  5e) Update view to display HomeViewModel data
+  Discussion - 3 sources for UI data - View, Controller, Model
+
+
+Contact form with validation
+  1) Create dummy TestModel
+  2) Right click Controllers, add TestController
+  3) Right click highlighted view, add typed View
+  Discussion - HtmlHelpers in the view
+  4) Show existing contact mode, controller, and view
+  5) Set break point in controller action and run
+  Discussion on ModelBinder
+  Discussion - routing to this page, show that Index is optional
+  6) Show existing success view
+  Discussion - Access to full model inside the view
+  7) Show existing ContactViewModel with validation attributes
+  8) Uncomment code to controller to reject invalid models
+  9) Run and test validation
+  Discussion - Notice default validation styling and CSS
+  10) Enable client scripting and re-run
+
+
+Routing
+  Discussion - What are routes?  URL is not equal to a page like WebForms.
+  1) Browse the site as-is
+  2) Show that /Home/Index is optional
+  2) Hover over "About", Test About route, which should work as-is
+  3) Show Global.asax.cs routing
+  4) Uncomment new route, we want http://localhost/This/Is/So/Cool
+  5) Browse to /This/Is/So/Cool
+  6) Hover over "About", test old route for About and new route you just made
+  Discussion - Order of routes matters, route resolution falls through code
+  7) Change new route code to be ABOVE default route
+  8) Hover over "About", test old route for About and new route you just made
+  9) Open Site.Master
+  10) Notice Html.ActionLink code instead of hard-coded URL
+  Discussion - View didn't change, Controller didn't change
+  Discussion - both routes still work
+
+
+Testing
+  1a) Open HomeControllerTests
+  1b) See ViewData values being tested in Index
+  1c) See ViewResult tested in About
+  2a) Open AccountControllerTest
+  2b) See RedirectToRouteResult tested in ChangePassword
+  Discussion - what could we test in our project?  Routing!
+  3) Add a reference to MvcContrib.TestHelper
+  4) Show RoutingTests with ShouldMaptTo using MvcContrib
+
+
+Ajax call to fetch JSON
+  1) Show Deparment model with Name as the only property
+  2) Show HrService for GetDepartments
+  3) Uncomment initialize HrService in the HomeController constructor
+  4) Uncomment action in HomeController called GetAllDepartments
+  Discussion - Why bother putting it outside the current method?
+  5) Show About view with button and div
+  6) Show jquery reference to About
+  7) Show button click jQuery function to view
+  8) Run and test
+  Discussion can go straight to this URL and use like REST
+
+
+
+
+Lab Steps
+----------
+
+- Lab 1 - Hello World MVC using different methods
+	- 1a) Show references
+	- 1b) Run as-is to show default look
+	- 2) Change values in Home View to display "Hello World"
+	- 3) Refactor to use ViewData["Message"] for value in view from Controller
+	- Discussion - what is ViewData?
+	- 4a) Refactor to use new Home Model for value in view
+	- 4b) Create HomeViewModel
+	- 4c) Update controller to pass HomeViewModel to View
+	- 4d) Update view to reference  HomeViewModel
+	- 4e) Update view to display HomeViewModel data
+	- Discussion - 3 sources for UI data - View, Controller, Model
+
+
+- Lab 2 - Building a contact form
+	- Discussion - what are we trying to do with model and forms
+	- 1) Set up ContactViewModel
+	- 2) Set up ContactController actions
+	- Discussion - FormCollection as action parameter
+	- 3) Set up view with HtmlHelpers
+	- Discussion - HtmlHelpers in the view
+	- 4a) Set break point in controller action
+	- 4b) Run with debugger to see if form works
+	- Discussion - routing to this page, show that Index is optional
+	- 6a) Add Success view to show first name 
+	- Discussion - we need to pass this model into this view so we can see it
+	- 6b) Refactor Success controller Action to pass in model
+	- Discussion - passing FormCollection versus passing your Model
+	- 7) Refactor Index post action to use ContactViewModel
+	- 8) Set breakpoint to show model is updated automatically from form values
+		
+
+- Lab 3 - Refactor contact form to use model validation
+	- Dicussion - what are the components required to validate ContactViewModel?
+	- 1) Add validation summary to view
+	- 2) Add validation messages to view
+	- 3a) Show reference to System.ComponentModel.DataAnnotations 
+	- 3b) Show reference to Microsoft.Web.Mvc.DataAnnotations
+	- 4) Add validation attributes to ContactViewModel
+	- 6) Add DataAnnotations Model Binder to Global.asax.cs
+	- Discussion - What is a ModelBinder?  Why would you change it?
+	- 7) Add code to controller to reject invalid models
+	- 8) Run and test validation
+	- Discussion - Notice default validation styling and CSS
+	
+	
+- Lab 4 - "Real world" sample using application services, repository, and MVC conventions
+	- This is not really a group lab until step #2
+	- 1a) Show and compare Employee and EmployeeViewModel classes
+	- 1b) Show and compare repository and application services
+	- Discussion - Why different?  Don't want to expose Salary, don't want to expose Delete
+	- Discussion - What is convention over configuration?
+	- 2a) Right click on Controllers folder and click Add Controller (TestController)
+	- 2b) Check box for adding all controller stuff
+	- 3a) Right click on Controller actions and click Add View, pick type
+	- 4a) Switch from TestContoller and Test views to EmployeeController and Employee views
+	- 4b) Run it to see if it works
+	- Discussion - Why doesn't it work?  Need data to display!
+	- 5a) Uncomment Employee Application Service code with GetAll() and Get()
+	- 5b) Set up constructors in EmployeeController to use EmployeeService
+	- 5c) Refactor Index action to call GetAll method and push model out
+	- 6) Browse and test it out
+	- Discussion - IDs in the pre-built views
+	- 7) Refactor to remove commented out IDs for Index and Details view
+	- 8) Refactor Details controller action to get one employee
+	- 9) Run and show list and details
+	- Discussion - could finish this out with Edit and Create
+	- Discussion - Use EditViewModel instead of FormCollection 
+
+
+- Lab 6 - Routing
+	- 1) Open Global.asax and look at RegisterRoutes
+	- Discussion - What are routes?  URL is not equal to a page like WebForms.
+	- Discussion - defaults for routes
+	- 2) Hover over "About", Test About route, which should work as-is
+	- 3a) Old About route is http://localhost/Home/About
+	- 3b) For new route, we want http://localhost/This/Is/So/Cool
+	- 3b) Add new route for About page BELOW default route
+	- 4) Hover over "About", test old route for About and new route you just made
+	- Discussion - Order of routes matters, route resolution falls through code
+	- 5) Change location of new route code to be ABOVE default route
+	- 6) Hover over "About", test old route for About and new route you just made
+	- Discussion - Why did menu item for About change?
+	- 7) Open Site.Master
+	- 8) Notice Html.ActionLink code instead of hard-coded URL
+	- Discussion - View didn't change, Controller didn't change
+	- Discussion - both routes still work
+
+
+- Lab 5 - Testing
+	- 1a) Open HomeControllerTests
+	- 1b) See ViewData values being tested in Index
+	- 1c) See ViewResult tested in About
+	- 2a) Open AccountControllerTest
+	- 2b) See RedirectToRouteResult tested in ChangePassword
+	- Discussion - what could we test in our project?  Routing!
+	- 3) Add a reference to MvcContrib.TestHelper
+	- 4) Set it as trusted with right click on DLL, unblock
+	- 5) Create route tests with ShouldMaptTo using MvcContrib
+	- Run tests and see if they pass
+	- 6) Modify Global.asax routes and re-run tests
+	- Discussion on testing session, HttpContext, review AccountController code
+
+
+- Lab 8 - Call to controller to call fake web service and return JSON
+	- 1) Add new Deparment model with Name as the only property
+	- 2) Add new method to new HrService for GetDepartments
+	- 3) Add new action to HomeController called GetAllDepartments
+	- 4) Initialize HrService in the HomeController constructor
+	- Discussion - Why bother putting it outside the current method?
+	- 5) Add button and div to Create view
+	- 6) Add jquery reference to Create view
+	- 7) Add button click jQuery function to view
+	- 8) Run and test
+	- Discussion can go straight to this URL and use like REST
+
+
+- Lab 7 - Basic error handling
+	- 1) Open Home Controller
+	- 2) Notice "[HandleError]"
+	- 3) Force an error in code
+	- 4) Run and see what happens, should get yellow screen
+	- 5a) Open web.config and comment out customErrors section
+	- 5b) Set redirect page to "Error.aspx"
+	- 5c) Set mode to "On"
+	- 6) Run and should now see error page
+	- 7) Notice special HandleErrorInfo model passed into the view
+	- Discussion and slides of Elmah as an HttpHandler for unhandled exceptions
