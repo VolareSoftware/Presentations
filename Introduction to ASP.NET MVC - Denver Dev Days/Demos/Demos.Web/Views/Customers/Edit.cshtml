@@ -1,4 +1,4 @@
-﻿@model WebApplication5.Models.Customer
+﻿@model Demos.Web.Models.Customer
 
 @using (Html.BeginForm())
 {
@@ -21,7 +21,7 @@
             <div class="col-md-10">
                 @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
-            </div>+
+            </div>
         </div>
 
         <div class="form-group">
@@ -31,3 +31,7 @@
         </div>
     </div>
 }
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

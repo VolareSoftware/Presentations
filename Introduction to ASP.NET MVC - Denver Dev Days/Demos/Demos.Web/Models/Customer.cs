@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace WebApplication5.Models
+namespace Demos.Web.Models
 {
     public class Customer
     {

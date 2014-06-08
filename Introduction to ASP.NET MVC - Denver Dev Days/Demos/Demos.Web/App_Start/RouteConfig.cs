@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace WebApplication5
+namespace Demos.Web
 {
     public class RouteConfig
     {
@@ -15,8 +15,8 @@ namespace WebApplication5
 
             //routes.MapRoute(
             //    name: "Demo",
-            //    url: "demo",
-            //    defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            //    url: "demo/this/is/cool",
+            //    defaults: new { controller = "Home", action = "About" }
             //);
 
             routes.MapRoute(

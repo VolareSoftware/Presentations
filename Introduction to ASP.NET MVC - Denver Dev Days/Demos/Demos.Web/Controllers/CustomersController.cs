@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using WebApplication5.Models;
+using Demos.Web.Models;
 
-namespace WebApplication5.Controllers
+namespace Demos.Web.Controllers
 {
+    [Authorize(Roles = "Admins, MyDemoUsers")]
     public class CustomersController : Controller
     {
         public ActionResult Edit()
@@ -21,12 +22,14 @@ namespace WebApplication5.Controllers
         //{
         //    if (!ModelState.IsValid)
         //    {
-        //        // Booo!!!  Bad values - Redirect!
+        //        // Booo!!!  Bad values - Redirect to fix it
         //        return RedirectToAction("Edit");
         //    }
 
-        //    // Yay!!! Good values
-        //    return View();
+        //    // Yay!!! Good values - Show values for review
+        //    // ... or you could redirect to a Customer list
+        //    // ... or redirect to next step in process
+        //    return View(customer);
         //}
     }
 }

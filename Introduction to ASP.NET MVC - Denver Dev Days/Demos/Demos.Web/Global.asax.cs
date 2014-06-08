@@ -7,7 +7,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace WebApplication5
+namespace Demos.Web
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
