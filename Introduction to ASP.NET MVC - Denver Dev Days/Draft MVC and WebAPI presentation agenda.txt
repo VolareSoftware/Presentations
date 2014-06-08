@@ -1,0 +1,34 @@
+"We'll cover the basics of how ASP.NET MVC works and what it looks like in a real app. We'll also talk about where MVC fits in today's web projects, the pros and cons, and if it might be a fit for your project."
+
+Where do MVC and Web API fit in today's web development
+
+MVC
+	- stands for
+	- pieces
+		- routing
+			- attribute routing
+			- action names
+		- controllers
+		- actions
+			- different action results
+				- JsonResult, RedirectResult, ViewResult, PartialViewResult
+			- server-side model binding
+				- going through query string, form, route data
+		- views
+			- razor
+			- HtmlHelpers
+			- form validation
+	- where do you put your logic?
+	
+API
+	- pieces
+		- routing (REST and RPC)
+			- attribute routing
+		- tricks to gets and posts and 404s
+			- FromBody, FromUri	
+		- different content formatters
+	- contrast with MVC and vNext?
+	
+Testing story for MVC and Web API
+	
+Deciding if MVC and/or Web API are a fit for your project
