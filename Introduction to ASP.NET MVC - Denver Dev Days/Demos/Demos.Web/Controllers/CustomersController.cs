@@ -7,14 +7,12 @@ using Demos.Web.Models;
 
 namespace Demos.Web.Controllers
 {
-    [Authorize(Roles = "Admins, MyDemoUsers")]
+    //[Authorize(Roles = "Admins, MyDemoUsers")]
     public class CustomersController : Controller
     {
         public ActionResult Edit()
         {
-            var customer = new Customer();
-
-            return View(customer);
+            return View();
         }
 
         //[HttpPost]
@@ -26,10 +24,16 @@ namespace Demos.Web.Controllers
         //        return RedirectToAction("Edit");
         //    }
 
-        //    // Yay!!! Good values - Show values for review
+        //    // Yay!!! Good values - Set TempData values and redirect to review screen
         //    // ... or you could redirect to a Customer list
         //    // ... or redirect to next step in process
-        //    return View(customer);
+        //    TempData["Message"] = "That worked, " + customer.FullName + "!";
+        //    return RedirectToAction("Review");
+        //}
+
+        //public ActionResult Review()
+        //{
+        //    return View();
         //}
     }
 }

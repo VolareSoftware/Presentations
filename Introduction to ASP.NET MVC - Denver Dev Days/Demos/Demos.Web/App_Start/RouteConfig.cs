@@ -13,11 +13,11 @@ namespace Demos.Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            //routes.MapRoute(
-            //    name: "Demo",
-            //    url: "demo/this/is/cool",
-            //    defaults: new { controller = "Home", action = "About" }
-            //);
+            routes.MapRoute(
+                name: "Demo",
+                url: "demo/this/is/cool",
+                defaults: new { controller = "Home", action = "About" }
+            );
 
             routes.MapRoute(
                 name: "Default",
